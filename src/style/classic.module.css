@@ -1,0 +1,41 @@
+.mute {
+  background-color: rgb(53, 53, 53);
+  border-radius: 50%;
+  bottom: 5em;
+  left: 1em;
+  width: 3em;
+  height: 3em;
+  position: fixed;
+  cursor: pointer;
+  display: flex;
+  opacity: .8;
+  z-index: 3;
+}
+
+.show {
+  background-color: rgb(53, 53, 53);
+  border-radius: 50%;
+  bottom: 1em;
+  left: 1em;
+  width: 3em;
+  height: 3em;
+  position: fixed;
+  cursor: pointer;
+  display: flex;
+  opacity: .8;
+  z-index: 3;
+}
+
+.show:hover {
+  background-color: grey;
+}
+
+.website {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.4em;
+  background-color: white;
+}

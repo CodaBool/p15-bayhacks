@@ -1,0 +1,15 @@
+.modal-dialog {
+  width: 600px;
+  max-width: none;
+}
+
+#rsvp-form {
+  max-width: 550px;
+}
+
+@media screen and (max-width: 600px) {
+  .modal-dialog {
+    width: 95%;
+    max-width: none;
+  }
+}
